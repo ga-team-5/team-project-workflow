@@ -1,1 +1,27 @@
 @import '~bootstrap/scss/bootstrap';
+
+@font-face {
+  font-family: 'Nature Beauty';
+  src: url('public/Nature-Beauty.ttf') format('truetype');
+}
+
+.element-with-custom-font {
+  font-family: 'Nature Beauty';
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-position: center;
+  // background-size: 100% 100%;
+}
+
+h1 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 3em;
+  letter-spacing: 1.2rem;
+  padding: 4vh;
+  text-align: center;
+  color: purple;
+}
