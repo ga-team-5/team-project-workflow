@@ -5,4 +5,4 @@ const bookIndex = () => {
   })
 }
 
-module.exports = bookIndex
+module.exports = { bookIndex }

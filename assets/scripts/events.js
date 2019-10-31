@@ -7,4 +7,4 @@ const onGetBooks = () => {
     .catch(ui.onGetBooksFailure)
 }
 
-module.exports = onGetBooks
+module.exports = { onGetBooks }
